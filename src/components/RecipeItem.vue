@@ -23,7 +23,7 @@
       class="w-full h-80"
       :src="imageUrl"
       @error="imageUrl = require('@/assets/defaultRecipeImg.png')"
-      alt="Sunset in the mountains"
+      :alt="recipe.name"
     />
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2 truncate" :title="recipe.name">
@@ -70,7 +70,7 @@ export default {
   data() {
     return {
       currentRecipeId: null,
-      imageUrl: this.recipe.img,
+      imageUrl: this.recipe.img || "",
     };
   },
   computed: {
