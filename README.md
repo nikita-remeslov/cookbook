@@ -1,4 +1,4 @@
-# cookbook - [DEMO](https://cookbook-k3j9o7z9j-nikita-remeslov.vercel.app/). 
+# cookbook
 
 ## Project setup
 ```
