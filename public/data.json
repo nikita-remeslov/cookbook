@@ -1,0 +1,82 @@
+{
+    "recipes": [
+        {
+            "id": "2",
+            "name": "Tomato Basil Soup (La Madeleine copycat)",
+            "img": "http://static1.squarespace.com/static/5f29bacc0170f346184b55b6/5f29e105f631511c5c4e029d/5f29e413f631511c5c4e3b49/1602609890593/Copycat-La-Madeleine-Tomato-Basil-Soup-An-Appetite-For-Joy-1.jpg?format=1500w",
+            "instructions": "Combine tomatoes, juice\/and or possibly stock in saucepan. Simmer 30 min. Puree, along with the basil leaves, in small batches, in blender or food processor or use an immersion blender in the pan.\r\n\r\nReturn to saucepan and add in cream and butter, while stirring over low heat. Garnish with basil leaves and serve with your favorite bread.",
+            "ingredients": [
+                "4 c tomatoes, minced, peeled, and cored\r",
+                "4 cup vegetable stock\r",
+                "12 basil leaves\r",
+                "1 c heavy cream\r",
+                "1\/4 lb unsalted butter\r",
+                "Salt\r",
+                "1\/4 tsp black pepper"
+            ],
+            "children": [],
+            "versions": [],
+            "createAt": "2021-03-10T19:35:39.431Z"
+        },
+        {
+            "id": "1",
+            "name": "Baked Shrimp Scampi",
+            "img": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/11/12/0/FN_Ina-Garten-Baked-Shrimp-Scampi_s4x3.jpg.rend.hgtvcom.826.620.suffix/1384540899886.jpeg",
+            "instructions": "Preheat the oven to 425 degrees F.\r\n\r\nDefrost shrimp by putting in cold water, drain. Place the shrimp in serving dish (9x13 or 2 quart casserole) and toss gently with the olive oil, wine, 1 teaspoons salt, and 1 teaspoon pepper. Allow to sit at room temperature while you make the butter and garlic mixture.\r\n\r\nIn a small bowl, mash the softened butter with the garlic, shallots, parsley, rosemary, red pepper flakes, lemon zest, lemon juice, egg yolk, panko, 1/2 teaspoon salt, and 1/4 teaspoon of pepper until combined.\r\n\r\nSpread the butter mixture evenly over the shrimp. Bake for 10 to 12 minutes until hot and bubbly. If you like the top browned, place under a broiler for 1-3 minutes (keep an eye on it). Serve with lemon wedges and French bread.\r\n\r\nNote: if using fresh shrimp, arrange for presentation. Starting from the outer edge of a 14-inch oval gratin dish, arrange the shrimp in a single layer cut side down with the tails curling up and towards the center of the dish. Pour the remaining marinade over the shrimp. ",
+            "ingredients": [
+                "2/3 cup panko\r",
+                "1/4 teaspoon red pepper flakes\r",
+                "1/2 lemon, zested and juiced\r",
+                "1 extra-large egg yolk\r",
+                "1 teaspoon rosemary, minced\r",
+                "3 tablespoon parsley, minced\r",
+                "4 clove garlic, minced\r",
+                "1/4 cup shallots, minced\r",
+                "8 tablespoon unsalted butter, at room temperature\r",
+                "2 tablespoon dry white wine\r",
+                "Freshly ground black pepper\r",
+                "Kosher salt\r",
+                "3 tablespoon olive oil\r",
+                "2 pound frozen shrimp"
+            ],
+            "children": [],
+            "versions": [],
+            "createAt": "2021-03-10T19:35:39.431Z"
+        },
+        {
+            "id": "3",
+            "name": "John Thorne's Pecan Pie",
+            "img": "https://chowhound3.cbsistatic.com/resize/e8e07b565b4789d5d76da6dbf394a351e8bdc598/2014/09/29151_pecan_pie_3000.jpg?fit=bounds&height=800&width=1280",
+            "instructions": "Preheat oven to 350F. In a large saucepan, heat the brown sugar, golden syrup and butter to the boiling point. Stirring constantly and scraping back any foam that clings to the side of the pan, let this mixture boil for about 1 minute. Remove from the heat and let cool while, in a separate bowl, you beat the eggs until creamy. \r\n\r\nWhen the boiled syrup has cooled, beat in the eggs, salt and pecans. Pour into the unbaked pie shell and bake for about 50 minutes.\r\n\r\nNotes:\r\n\r\n* A little cream (about 1\/4 to 1\/2 cup) mixed into a pecan pie filling before baking gives it a richer, lighter texture. \r\n\r\n* For a sweeter, lighter pie: add more sugar and use fewer pecans; for a denser, less sweet pie: add more pecans and use less sugar. \r\n\r\n* The buttery flavour and the lard-induced flakiness of a butter and lard crust make it the perfect one for a perfect pecan pie. And a Southern pecan pie authority I know suggests that you roll out the dough a little thicker than usual; a thick, richly shortened crust provides an appetizing balance to the sweetness of the filling. ",
+            "ingredients": [
+                "1\/4 tsp salt \r",
+                "3 eggs \r",
+                "4 tbsp butter \r",
+                "2 tbsp dark rum \r",
+                "2\/3 cup golden syrup \r",
+                "1 cup dark brown sugar, well-packed\r",
+                "2 cup pecans, chopped \r",
+                "9-inch unbaked pie shell"
+            ],
+            "children": [],
+            "versions": [],
+            "createAt": "2021-03-10T19:35:39.431Z"
+        },
+        {
+            "id": "4",
+            "name": "Strawberries Romanov (La Madeleine copycat)",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUN3uAuhXkixyt8Kqb-yzqZgJH-1vBMspGM6Yz28VlBbGNh-Xmaxu6LAdgEihoFWER11I&usqp=CAU",
+            "source": "Ina Garten",
+            "instructions": "Wash strawberries and cut the tops off. Let strawberries drain.  Mix together heavy whipping cream, powdered sugar, and the brandy. Beat with a mixer till this becomes thick.  Place strawberries into glasses and spoon over the sauce.\r\n",
+            "ingredients": [
+                "2 tbsp powdered sugar\r",
+                "1/2 pt heavy whipping cream\r",
+                "1 lb strawberries, (2 pints)\r",
+                "4 tbsp brandy"
+            ],
+            "children": [],
+            "versions": [],
+            "createAt": "2021-03-10T19:35:39.431Z"
+        }
+    ]
+}

@@ -1,17 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Header />
+  <router-view />
+  <CreateEditRecipeModal />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CreateEditRecipeModal from "@/components/CreateEditRecipeModal.vue";
+import Header from "@/components/Header.vue";
+import { mapActions } from "vuex";
+import * as actions from "@/store/modules/recipe/types/actions";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    CreateEditRecipeModal,
+    Header,
+  },
+  methods: {
+    ...mapActions("recipe", {
+      fetchRecipes: actions.FETCH_RECIPES,
+    }),
+  },
+  created() {
+    this.fetchRecipes();
+  },
+};
 </script>
 
 <style>
@@ -21,6 +34,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
