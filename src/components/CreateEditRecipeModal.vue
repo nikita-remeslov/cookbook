@@ -79,10 +79,10 @@
                 placeholder="Push Enter to add"
                 autocomplete="off"
                 v-model="ingredients"
-                @keydown.enter="say(ingredients)"
+                @keydown.enter="addIngredient(ingredients)"
               />
               <button
-                @click="say(ingredients)"
+                @click="addIngredient(ingredients)"
                 class="bg-transparent border border-solid border-gray-300 font-bold uppercase text-xl rounded-md outline-none focus:outline-none ml-2 px-3 hover:bg-gray-100 hover:border-gray-100"
               >
                 +
@@ -127,7 +127,7 @@
             v-on:click="
               currentRecipeId
                 ? onEditRecipe(currentRecipeId, formData)
-                : toggleModal()
+                : onAddRecipe()
             "
           >
             Save
@@ -150,7 +150,9 @@ export default {
   name: "CreateEditRecipeModal",
   data() {
     return {
-      formData: {},
+      formData: {
+        ingredients: [],
+      },
       ingredients: "",
     };
   },
@@ -177,6 +179,7 @@ export default {
     }),
     ...mapActions("recipe", {
       editRecipe: recipeActions.EDIT_RECIPE,
+      addRecipe: recipeActions.ADD_RECIPE,
     }),
     toggleModal: function() {
       if (this.isModalOpen) {
@@ -190,7 +193,11 @@ export default {
       this.editRecipe({ id, recipe });
       this.toggleModal();
     },
-    say: function(ingredient) {
+    onAddRecipe: function() {
+      this.editRecipe(this.formData);
+      this.toggleModal();
+    },
+    addIngredient: function(ingredient) {
       if (this.formData.ingredients.includes(ingredient.toLowerCase())) {
         return (this.ingredients = "");
       }

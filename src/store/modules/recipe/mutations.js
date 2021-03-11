@@ -59,4 +59,19 @@ export default {
 
     state.recipes = recipes;
   },
+  [mutations.ADD_RECIPE]: (state, payload) => {
+    const newRecipe = {
+      ...payload,
+      children: [],
+      versions: [],
+      id: uuidv4(),
+      createAt: new Date().toISOString(),
+    };
+    state.recipes = {
+      ...state.recipes,
+      [newRecipe.id]: {
+        ...newRecipe,
+      },
+    };
+  },
 };

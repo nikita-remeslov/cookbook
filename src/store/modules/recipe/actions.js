@@ -29,4 +29,7 @@ export default {
   [actions.DELETE_RECIPE]: async ({ commit }, payload) => {
     commit(mutations.DELETE_RECIPE, payload);
   },
+  [actions.ADD_RECIPE]: async ({ commit }, payload) => {
+    commit(mutations.ADD_RECIPE, payload);
+  },
 };
