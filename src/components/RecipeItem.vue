@@ -29,11 +29,11 @@
       <div class="font-bold text-xl mb-2 truncate" :title="recipe.name">
         {{ recipe.name }}
       </div>
-      <p class="text-grey-darker text-base line-clamp-4 overflow-hidden">
+      <p class="text-grey-darker text-base line-clamp-4 overflow-hidden h-24">
         {{ recipe.instructions }}
       </p>
     </div>
-    <div class="px-6 py-4">
+    <div class="px-6 py-4 h-28">
       <span
         class="inline-block max-w-12 truncate bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold m-1"
         v-for="item in recipe.ingredients.slice(0, 4)"

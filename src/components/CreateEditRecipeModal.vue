@@ -184,7 +184,10 @@ export default {
     toggleModal: function() {
       if (this.isModalOpen) {
         this.closeModal();
-        this.formData = {};
+        this.formData = {
+          ingredients: [],
+        };
+        this.ingredients = "";
       } else {
         this.openModal();
       }
